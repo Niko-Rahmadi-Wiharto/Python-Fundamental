@@ -31,8 +31,13 @@ print(a, ' == ', b, ' = ', hasil)
 # hasil = a is 4
 # ##perbandingan di atas tidak bisa dilakukan pada is dan is not
 
-hasil = a is b
-print(a, ' is ', b, ' = ', hasil)
+x = 5
+y =  6
+hasil = x is y
+print("Nilai x = ", x, ", id = ", hex(id(x)))
+print("Nilai y = ", y, ", id = ", hex(id(y)))
+print('x is y = ', hasil)
+
 
 # is not ==> tidak bekerja pada syntax literal (membandingkan objek (variable))
 hasil = a is not b
