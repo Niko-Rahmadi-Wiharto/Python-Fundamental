@@ -25,9 +25,26 @@ print("nilai : ", b, ", binary : ", format(b,'08b'))
 print("-------------------------------(&)")
 print("nilai : ", c, ", binary : ", format(c,'08b'))
 
-# bitwise XOR (^)
-print("\n======= OR ======")
+# bitwise NOT (~)
+print("\n======= NOT ======")
+
 a = 9
+c = ~a
 d = (0b11111111) ^ (a)
+print("nilai : ", c, "  , binary : ", format(c,'08b'))
+
+print("\n======= NOT ======") # agar ngeflip nilainya
 print("nilai : ", a, "  , binary : ", format(a,'08b'))
 print("nilai : ", d, ", binary : ", format(d, '08b'))
+
+# shiftting right (>>)
+c = a >> 5
+print("\n======= Shifting Right ======")
+print("nilai : ", a, ", binary : ", format(a,'08b'))
+print("nilai : ", c, ", binary : ", format(c,'08b'))
+
+# shiftting left (<<>>>>)
+c = a << 5
+print("\n======= Shifting Left ======")
+print("nilai : ", a, ", binary : ", format(a,'08b'))
+print("nilai : ", c, ", binary : ", format(c,'08b'))
