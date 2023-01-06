@@ -21,6 +21,15 @@ angka = 15
 format_str = f"bilangan bulat = {angka:d}"
 print(format_str)
 
+# menampilkan tanda + atau -
+angka_minus = -10
+angka_plus = +15
+formar_minus = f"minus = {angka_minus:+d}"
+formar_plus = f"plus = {angka_plus:+d}"
+print(formar_minus)
+print(formar_plus)
+
+
 # bilangan dengan ordo ribuan
 angka = 20000000
 format_str = f"bilangan ribuan = {angka:,}"
@@ -33,26 +42,18 @@ print(format_str)
 
 # bilangan desimal
 angka = 2005.9393
-format_str = f"desimal = {angka:010.3f}"
+format_str = f"desimal = {angka:10.3f}"
 print(format_str)
-
-# menampilkan tanda + atau -
-angka_minus = -10
-angka_plus = +15
-formar_minus = f"minus = {angka_minus:+d}"
-formar_plus = f"plus = {angka_plus:+d}"
-print(formar_minus)
-print(formar_plus)
 
 # memformat persen
 persentase = 0.045
-formatt_persen = f"persen = {persentase:.2%}\n\n"
+formatt_persen = f"persen = {persentase:.2%}"
 print(formatt_persen)
 
 # melakukan operasi aritmatika di dalam kurung kurawal (placeholder)
 harga = 10000
 jumlah = 5
-format_string = f"harga total = Rp. {harga*jumlah:,}\n"
+format_string = f"harga total = Rp. {harga*jumlah:,}"
 print(format_string)
 
 # format angka lain (binary, octal, hexadecimal)
